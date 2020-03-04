@@ -29,12 +29,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDI-j5-hZr">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="azN-jl-QiJ"/>
                     <connections>
+                        <outlet property="pickerCountry" destination="hDI-j5-hZr" id="nOa-kO-qd6"/>
                         <outlet property="txtName" destination="FcG-V9-mxC" id="Dlc-ed-J9t"/>
                     </connections>
                 </viewController>
