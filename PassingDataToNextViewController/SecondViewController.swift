@@ -21,7 +21,7 @@ class SecondViewController: UIViewController {
         self.addCloseButton()
         self.navigationItem.hidesBackButton = true
         
-        let bvc = self.navigationController?.viewControllers[1]
+        let bvc = self.navigationController?.viewControllers[0]
         
         self.navigationController?.popToViewController(bvc!, animated: true)
         
